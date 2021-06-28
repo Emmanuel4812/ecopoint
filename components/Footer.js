@@ -1,5 +1,9 @@
 
 import Link from 'next/link'
+import Image from 'next/image'
+import instagramLogo from '../public/instagramLogo.png'
+import facebookLogo from '../public/facebookLogo.png'
+import youtubeLogo from '../public/youtubeLogo.png'
 
 
 
@@ -43,7 +47,25 @@ function Footer(){
                     </div>   
                 </div>
             </div>
-            <div>Hola</div>
+            <div className="mt-4">
+                <div>
+                    <Link href="https://www.instagram.com/ecopointmx/">
+                        <a>
+                            <Image src={instagramLogo} width={30} height={30}alt="instagramLogo"/>
+                        </a>                        
+                    </Link>                    
+                </div>
+                <div className="mt-2">
+                    <Link href="https://www.facebook.com/search/top?q=eco%20point">
+                        <a>
+                            <Image src={facebookLogo} width={30} height={30}alt="facebookLogo"/>
+                        </a>
+                    </Link>                    
+                </div>
+                <div className="mt-2">
+                    <Image src={youtubeLogo} width={150} height={30}alt="facebookLogo"/>
+                </div>              
+            </div>
         </div>
     );
     

@@ -27,7 +27,7 @@ function Menu(){
     return (
 
         <div>
-            <button className="text-xl text-white font-sans font-semibold flex justify-center" onMouseOver={() => setVisible(!visible)}>Menu</button>
+            <button className="text-xl text-white font-sans font-semibold flex justify-center" onClick={() => setVisible(!visible)}>Menu</button>
             {visible && <Options/>}
         </div>
         
