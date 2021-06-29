@@ -9,8 +9,7 @@ import youtubeLogo from '../public/youtubeLogo.png'
 
 function Footer(){
     return(
-        <div className="w-fu
-        ll h-60 grid grid-cols-3 bg-green-600">
+        <div className="w-full h-60 grid grid-cols-3 bg-green-600">
             <div className="mt-4">
                 <Link href="quienesSomos">
                     <a className="block font-normal text-1xl text-white px-4">Quienes somos</a>
@@ -28,19 +27,24 @@ function Footer(){
                     <a className="block font-normal text-1xl text-white px-4">Calentadores solares</a>
                 </Link>
                 <Link href="#">
-                    <a className="block font-normal text-1xl text-white px-4">Climatización</a>
+                    <a className="block font-normal text-1xl text-white px-4">Colectores solares para alberca</a>
                 </Link>
                        
             </div>
             <div className="mt-2">
-                <div className="w-full h-10 flex justify-center items-center font-bold text-2xl text-white">
+                <div className="w-full h-10 flex justify-center items-center font-bold text-xl text-white">
                     <div>
                         Contacto
                     </div>   
                 </div>
-                <div className="w-full h-10 flex justify-center items-center font-semibold text-2xl text-white">
+                <div className="w-full h-10 flex justify-center items-center font-semibold text-xl text-white">
                     <div>
                         +52 332 592 1050
+                    </div>   
+                </div>
+                <div className="w-full h-10 flex justify-center items-center font-semibold text-xl text-white">
+                    <div>
+                        contacto@ecopoint.mx
                     </div>   
                 </div>
             </div>

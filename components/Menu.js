@@ -10,12 +10,20 @@ function Options(){
                 <a className="block px-4 py-2 hover:bg-green-500">Quienes somos</a>
             </Link>
             <Link href="/misionVision">
-                <a className="block px-4 py-2 hover:bg-green-500" href="#">Misión/Visión</a>
+                <a className="block px-4 py-2 hover:bg-green-500">Misión/Visión</a>
+            </Link>
+            <Link href="/valores">
+                <a className="block px-4 py-2 hover:bg-green-500" href="#">Valores</a>
             </Link>           
-            <a className="block px-4 py-2 hover:bg-green-500" href="#">Valores</a>
-            <a className="block px-4 py-2 hover:bg-green-500" href="#">Paneles solares</a>
-            <a className="block px-4 py-2 hover:bg-green-500" href="#">Calentadores Solares</a>
-            <a className="block px-4 py-2 hover:bg-green-500" href="#">Climatización</a>
+            <Link href="/panelesSolares">
+                <a className="block px-4 py-2 hover:bg-green-500" href="#">Paneles solares</a>
+            </Link>
+            <Link href="/calentadoresSolares">
+                <a className="block px-4 py-2 hover:bg-green-500" href="#">Calentadores Solares</a>
+            </Link>
+            <Link href="/colectoresSolares">
+                <a className="block px-4 py-2 hover:bg-green-500" href="#">Colectores solares para alberca</a>
+            </Link>      
         </div>
     );
     
