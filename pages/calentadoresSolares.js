@@ -31,8 +31,8 @@ const calentadoresSolares = () => {
                     Calentadores Solares
                 </div>
                 <div className="flex space-x-8 justify-center h-10 mt-10">
-                    <NavItem href="/" text="Casa"/>
-                    <NavItem href="/" text="Industria"/>                
+                    <NavItem href="/calentadorSolarDomestico" text="Domestico"/>
+                    <NavItem href="/calentadorSolarIndustria" text="Industria"/>                
                 </div>
             </div>           
             

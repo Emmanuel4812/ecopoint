@@ -31,9 +31,9 @@ const colectoresSolares = () => {
                     Colectores Solares
                 </div>
                 <div className="flex space-x-8 justify-center h-10 mt-10">
-                    <NavItem href="/" text="Casa"/>
+                    <NavItem href="/colectorSolarCasa" text="Casa"/>
                     <NavItem href="/" text="Hotel"/>
-                    <NavItem href="/" text="Olimpica"/>                
+                    <NavItem href="/colectorSolarOlimpico" text="Olimpica"/>                
                 </div>
             </div>           
             

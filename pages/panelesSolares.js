@@ -33,7 +33,7 @@ const panelesSolares = () => {
                     <NavItem href="/panelSolarDomestico" text="Doméstico"/>
                     <NavItem href="/panelSolarComercio" text="Comercio"/>
                     <NavItem href="/panelSolarIndustria" text="Industria"/>
-                    <NavItem href="/" text="Cartport"/>                  
+                    <NavItem href="/panelSolarCarport" text="Carport"/>                  
                 </div>                
             </div>           
             
