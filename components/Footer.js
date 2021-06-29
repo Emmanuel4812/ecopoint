@@ -16,10 +16,7 @@ function Footer(){
                     <a className="block font-normal text-1xl text-white px-4">Quienes somos</a>
                 </Link>
                 <Link href="#">
-                    <a className="block font-normal text-1xl text-white px-4">Visión</a>
-                </Link>
-                <Link href="#">
-                    <a className="block font-normal text-1xl text-white px-4">Misión</a>
+                    <a className="block font-normal text-1xl text-white px-4">Misión/Visión</a>
                 </Link>
                 <Link href="#">
                     <a className="block font-normal text-1xl text-white px-4">Valores</a>

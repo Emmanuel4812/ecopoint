@@ -9,8 +9,9 @@ function Options(){
             <Link  href="/quienesSomos">
                 <a className="block px-4 py-2 hover:bg-green-500">Quienes somos</a>
             </Link>
-            <a className="block px-4 py-2 hover:bg-green-500" href="#">Misión</a>
-            <a className="block px-4 py-2 hover:bg-green-500" href="#">Visión</a>
+            <Link href="/misionVision">
+                <a className="block px-4 py-2 hover:bg-green-500" href="#">Misión/Visión</a>
+            </Link>           
             <a className="block px-4 py-2 hover:bg-green-500" href="#">Valores</a>
             <a className="block px-4 py-2 hover:bg-green-500" href="#">Paneles solares</a>
             <a className="block px-4 py-2 hover:bg-green-500" href="#">Calentadores Solares</a>
