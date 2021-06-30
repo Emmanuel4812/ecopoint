@@ -5,12 +5,21 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
-      <Header/>    
-      <img className="relative z-0 w-full"src='indexImage.jpg'></img>           
-      <Footer/>           
-    </div>
+      <div>
+        <Header/>
+        <section className="main">
+          
+            {/* <img src='indexImage.jpg'></img> */}
+          
+        </section>
+        <Footer/>
+      </div>
+      
+      
+        
+                
+      
   )
 }
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+

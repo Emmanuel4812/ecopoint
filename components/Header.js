@@ -6,21 +6,21 @@ import Link from 'next/link';
 function Header(){
     return(
         <div className="absolute z-20 w-full">
-            <Link href="/">
-                <a>
-                    <img className="absolute z-10 w-60"src='logoEcopoint.png'></img> 
-                </a>
-            </Link>            
-            <div className="h-20 flex items-center justify-end">
-                <div className="grid grid-cols-3">
-                <Menu/>
-                <div className="text-xl text-white font-sans font-semibold flex justify-center">Contacto</div>
-                <div className="text-xl text-white font-sans font-semibold flex justify-center">Blog</div>
-                </div>
+            <div className="flex justify-between items-center px-10 py-2">
+                <Link href="/">
+                    <a>
+                        <img className="z-10 w-60"src='logoEcopoint.png'></img>
+                    </a>                     
+                </Link>                      
+                
+                <div className="flex space-x-4">
+                    <Menu/>
+                    <div className="text-xl text-white font-elegant hover:text-green-600">Contacto</div>
+                    <div className="text-xl text-white font-elegant hover:text-green-600">Blog</div>
+                </div>     
             </div>
-        </div>      
-    );
-    
+        </div>
+    )
 }
 
 

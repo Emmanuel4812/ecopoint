@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function Options(){
     return(
-        <div className="bg-white rounded-lg py-2 shadow-xl absolute right-48 top-14">
+        <div className="bg-white rounded-lg py-2 shadow-xl absolute right-48 top-20">
             <Link  href="/quienesSomos">
                 <a className="block px-4 py-2 hover:bg-green-500">Quienes somos</a>
             </Link>
@@ -36,7 +36,7 @@ function Menu(){
     return (
 
         <div>
-            <button className="text-xl text-white font-sans font-semibold flex justify-center" onClick={() => setVisible(!visible)}>Menu</button>
+            <button className="text-xl text-white font-elegant hover:text-green-600" onClick={() => setVisible(!visible)}>Menu</button>
             {visible && <Options/>}
         </div>
         
