@@ -6,36 +6,30 @@ const misionVision = () => {
     return(
         <div>
             <Header/>
-            <div className="absolute z-10 w-full grid grid-cols-2 mt-60 ">
-                <div>
-                    <div className="flex justify-center font-bold text-white text-6xl text-white">
-                        Misión
+            <div className="background-misionVision">
+                <div className="container m-auto">
+                    <div className="pt-20 sm:pt-40 lg:pt-60">
+                        <div className="text-5xl font-elegant font-extrabold text-white text-center flex items-end justify-center">
+                            Misión
+                        </div>
+                        <div className="flex justify-center pt-3">
+                            <div className="w-3/4 text-center text-white font-elegant text-xl sm:text-3xl">
+                                Transformar la manera en la que nuestros clientes ven el mundo mientras invierten en energías renovables en sus hogares negocios e industrias.
+                            </div>
+                        </div>                    
                     </div>
-                    <pre className="text-center font-semibold text-4xl text-white font-sans mt-10 text-white">
-                        {`Transformar la manera en 
-la que nuestros clientes
-ven el mundo mientras
-invierten en energías
-renovables en sus hogares
-negocios e industrias.`}
-                    </pre>
+                    <div className="pt-10">
+                        <div className="text-5xl font-elegant font-extrabold text-white text-center flex items-end justify-center">
+                            Visión
+                        </div>
+                        <div className="flex justify-center pt-3">
+                            <div className="w-3/4 text-center text-white font-elegant text-xl sm:text-3xl">
+                                Ser altamente competente en el sector energético implementando las energías renovables mientras apoyamos en le economia de los mexicanos.
+                            </div>
+                        </div>                    
+                    </div>
                 </div>
-
-                <div>
-                    <div className="flex justify-center font-bold text-white text-6xl text-white">
-                        Visión
-                    </div>
-                    <pre className="text-center font-semibold text-4xl text-white font-sans mt-10 text-white">
-                            {`Ser altamente competente
-en el sector energético
-implementando las energías
-renovables mientras apoyamos
-en le economia de los mexicanos.`}
-                    </pre>      
-                </div>                
-                         
-            </div>            
-            <img className="relative z-0 bg-auto " src='misionVisionImage.jpg'></img>
+            </div>
             <Footer/>
         </div>
     );

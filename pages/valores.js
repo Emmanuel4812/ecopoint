@@ -7,12 +7,15 @@ const valores = () => {
     return(
         <div>
             <Header/>
-            <div className="absolute z-10 flex justify-center w-full grid grid-rows-2">
-                <div className="text-5xl font-bold text-white text-center flex items-end justify-center">
-                    Valores
-                </div>
-                <pre className="text-justify font-semibold text-4xl text-white font-sans mt-10">
-                    {`Transparencia
+            <div className="background-valores">
+                <div className="container m-auto">
+                    <div className="pt-40 sm:pt-80 lg:pt-60">
+                        <div className="text-5xl font-elegant font-extrabold text-white text-center flex items-end justify-center">
+                            Valores
+                        </div>
+                        <div className="flex justify-center pt-3">
+                            <pre className="w-3/4 text-center text-white font-elegant font-bold text-3xl">
+                            {`Transparencia
 Honestidad
 Profesionalismo
 Calidad
@@ -20,12 +23,12 @@ Excelencia
 Compromiso
 Responsabilidad
 `}
-                </pre>
-            </div>           
-            
-           
-            <img className="relative z-0 bg-auto " src='valoresImage.jpg'></img>
-            <Footer/>      
+                            </pre>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+            <Footer/>
         </div>
     );
 }

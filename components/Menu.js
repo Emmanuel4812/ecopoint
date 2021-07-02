@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function Options(){
     return(
-        <div className="bg-white rounded-lg py-2 shadow-xl absolute right-48 top-20">
+        <div className="bg-white rounded-lg py-2 shadow-xl absolute right-6 top-16">
             <Link  href="/quienesSomos">
                 <a className="block px-4 py-2 hover:bg-green-500">Quienes somos</a>
             </Link>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
       <div>
         <Header/>
-        <section className="main">
+        <section className="background-index">
           
             {/* <img src='indexImage.jpg'></img> */}
           

@@ -6,8 +6,84 @@
 
 
 
-.main {
+.background-index {
     background: url('/indexImage.jpg')  no-repeat center;
     height: 100vh;    
   }
+
+.background-panelesSolares {
+  background: url('/panelesSolaresImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-paneleSolarDomestico {
+  background: url('/panelDomesticoImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-paneleSolarComercio {
+  background: url('/panelComercioImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-paneleSolarIndustria {
+  background: url('/panelIndustriaImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-paneleSolarCarport {
+  background: url('/panelCarportImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-calentadorSolar {
+  background: url('/calentadoresSolares.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-calentadorSolarDomestico {
+  background: url('/calentadorDomesticoImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-calentadorSolarIndustria {
+  background: url('/calentadorIndustriaImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-colectoresSolares {
+  background: url('/albercaImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-colectorSolarCasa {
+  background: url('/albercaCasaImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-colectorHotelImage {
+  background: url('/albercaHotelImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-colectorOlimpicaImage {
+  background: url('/albercaOlimpicaImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-quienesSomos {
+  background: url('/quienesSomosImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-valores {
+  background: url('/valoresImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-misionVision {
+  background: url('/misionVisionImage.jpg')  no-repeat center;
+  height: 100vh;
+}
+  
 
