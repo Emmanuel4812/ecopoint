@@ -17,7 +17,7 @@ const FooterItems = props => <div>
 
 function Footer(){
    return(
-       <div className="bg-gradient-to-r from-green-400 to-blue-500 px-10 py-6  flex justify-center">
+       <div className="bg-gradient-to-r from-green-400 to-blue-500 px-10 py-6  flex justify-center  w-full relative z-0">
            
            <div className="text-center">
                 <div className="text-xl font-elegant font-bold text-white">Contacto</div>

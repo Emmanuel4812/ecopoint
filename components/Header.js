@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function Header(){
     return(
-        <div className="absolute z-20 w-full">
+        <div className="absolute z-40 w-full">
             <div className="flex justify-between items-center px-10 py-2">
                 <Link href="/">
                     <a>

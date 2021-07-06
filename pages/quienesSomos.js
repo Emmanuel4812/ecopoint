@@ -7,12 +7,12 @@ const quienesSomos = () => {
     return(
         <div>
             <Header/>
-            <video autoPlay muted loop className="myVideo object-cover">
+            <video autoPlay muted loop>
                 <source src="/quienesSomosVideo.mp4">
                 </source>
             </video>
-            {/* <div className="background-quienesSomos">
-                <div className="container m-auto">
+            <div className="relative z-0">
+                <div className="container m-auto h-screen">
                     <div className="pt-40 lg:pt-60">
                         <div className="text-5xl font-elegant font-extrabold text-white text-center flex items-end justify-center">
                             Quienes somos
@@ -27,7 +27,7 @@ const quienesSomos = () => {
                         </div>                    
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             <Footer/>      
         </div>
