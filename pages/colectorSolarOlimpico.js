@@ -20,7 +20,7 @@ const colectorSolarOlimpico = () => {
                         </div>
                         <div className="flex justify-center pt-3">
                             <div className="w-3/4 text-center text-white font-elegant text-3xl">
-                            Entrena siempre con agua templada sgenerada por colectores solares
+                            Entrena siempre con agua templada generada por colectores solares
                             </div>
                         </div>
                         <Contacto/>                       
