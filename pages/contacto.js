@@ -1,7 +1,9 @@
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import router, {useRouter} from 'next/router';
-import Header from '../components/Header';
+import NavbarInner from '../components/NavbarInner';
+import Footer from './Footer';
+//import Header from '../components/Header';
 
 
 
@@ -36,16 +38,17 @@ export default function Contacto() {
 
   return (
       <div>
-          <Header/>
-            <div className="b py-16 bg-green-500 px-4 sm:px-6 h-screen w-screen flex justify-center items-center">
+            <NavbarInner/>
+          
+            <div className="b py-16 bg-greenEco px-4 sm:px-6 h-screen w-screen flex justify-center items-center pt-32">
             
-            <div className="mx-auto w-full max-w-2xl rounded-xl bg-white p-8 shadow">
+            <div className="mx-auto w-full max-w-2xl rounded-xl bg-white p-8 shadow ">
                 <form
                 onSubmit={handleSubmit(onSubmitForm)}
                 className="grid grid-cols-1 gap-y-6">
                 <div>
                     <label htmlFor="name" className="sr-only">
-                    Full name
+                        Full name
                     </label>
                     <input
                     type="text"
@@ -141,13 +144,14 @@ export default function Contacto() {
                 <div>
                     <button
                     type="submit"
-                    className="inline-flex justify-center py-3 px-6 border border-transparent shadow text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-                    Submit
+                    className="inline-flex justify-center py-3 px-6 border border-transparent shadow text-base font-medium rounded-md text-white bg-greenEco hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                      Submit
                     </button>
                 </div>
                 </form>
             </div>
             </div>
+            <Footer/>
       </div>
     
   );

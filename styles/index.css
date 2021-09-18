@@ -71,6 +71,21 @@
   height: 100vh;
 }
 
+.background-aerotermia {
+  background: url('/aerotermia.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-geotermia {
+  background: url('/geotermia.jpg')  no-repeat center;
+  height: 100vh;
+}
+
+.background-sueloRadiante {
+  background: url('/sueloRadiante.jpg')  no-repeat center;
+  height: 100vh;
+}
+
 video {
   /* background: no-repeat center;
   height: 100vh; */
@@ -80,6 +95,7 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 .background-valores {
