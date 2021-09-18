@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import AerotermiaAplicacion from '../../public/AerotermiaAplicacion.jpg';
+import AerotermiaAplicacion from '../../public/aerotermiaAplicacion.jpg';
 import BotonEstudio from '../../components/BotonEstudio';
 import NavbarInner from '../../components/NavbarInner';
 import Footer from '../Footer';
