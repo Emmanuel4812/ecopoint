@@ -25,7 +25,7 @@ const EnergeticoIndustrial = () => {
                             <li>Estudio de viabilidad económica</li>
                             <li>Periodo de amortización de la instalación</li>
                         </ul>
-                        <BotonContacto href='/contacto' text="Cotiza ahora" />
+                        <BotonContacto href='/ContactForm' text="Cotiza ahora" />
                     </div>                  
                 </div>                
             </div>
